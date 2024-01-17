@@ -98,7 +98,7 @@ function CheeElement(html) {
       return [];
     }
     elements.each((index, element) => {
-      result.push(self.me(element).attr());
+      result.push(self.$(element).attr());
     });
     return result;
   }
