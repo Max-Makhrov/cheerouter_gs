@@ -1,7 +1,7 @@
 /**
  * @param {string} html
  */
-function CheeRouter(html) {
+function CheeRouter_(html) {
   if (!html || !(typeof html === 'string')) {
     throw new Error("CheeRouter requires HTML-string parameter");
   }
@@ -44,7 +44,6 @@ function CheeRouter(html) {
          return;
       }
     }
-    console.log($parent);
     self.$.set($parent);
   }
 
